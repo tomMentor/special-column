@@ -1,0 +1,19 @@
+{
+  "name": "special-column",
+  "version": "1.0.0",
+  "description": "Tom Mentor Special column",
+  "main": "index.js",
+  "repository": "https://github.com/tomMentor/special-column.git",
+  "author": "tomMentor",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "vuepress-theme-reco": "^1.6.10"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.5"
+  }
+}
