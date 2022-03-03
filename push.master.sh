@@ -8,8 +8,8 @@
 set -e
 time=$(date "+%Y-%m-%d %H:%M:%S")
 
-git add .
+sudo -E git add .
 read -p 'Commit:' COMMIT
-git commit -m "$time $COMMIT"
+sudo -E git commit -m "$time $COMMIT"
 
-git push -f git@github.com:tomMentor/special-column.git
+sudo -E git push -f git@github.com:tomMentor/special-column.git
