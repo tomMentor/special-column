@@ -12,4 +12,4 @@ git add .
 read -p 'Commit:' COMMIT
 git commit -m "$time $COMMIT"
 
-git push -f git@github.com:tomMentor/special-column.git master
+git push -f git@github.com:tomMentor/special-column.git
