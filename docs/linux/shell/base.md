@@ -1,12 +1,12 @@
 <!--
  * @Author: your name
  * @Date: 2022-02-10 14:28:52
- * @LastEditTime: 2022-03-02 20:51:34
+ * @LastEditTime: 2022-03-03 17:16:25
  * @LastEditors: Please set LastEditors
  * @FilePath: /special-column/docs/shell/base.md
 -->
-## 获取目录下时间最新的文件的文件名
-
+## 文件名获取
+> 获取目录下时间最新的文件的文件名
 ```sh
 filename=`ls -lt /dirname/ | grep filename | head -n 1 | awk '{print $9}'`
 ```

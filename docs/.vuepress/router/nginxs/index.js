@@ -5,13 +5,20 @@
  * @Description: nginx
  */
 module.exports = {
-  title: 'Nginx',
+  title: "Nginx",
   path: '/nginx/install',
   children: [
     {
       title: '安装',
       path: '/nginx/install'
+    },
+    {
+      title: '默认配置',
+      path: '/nginx/defaultConfig'
+    },
+    {
+      title: '自定义配置',
+      path: '/nginx/config'
     }
-  ]
+  ],
 }
-
